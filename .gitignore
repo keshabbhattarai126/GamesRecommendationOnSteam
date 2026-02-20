@@ -1,0 +1,11 @@
+# Ignore large data files
+recommendations.csv
+users.csv
+
+# Ignore saved models
+*.pkl
+
+# Ignore python cache and environments
+__pycache__/
+venv/
+.env
