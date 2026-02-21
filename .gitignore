@@ -1,11 +1,21 @@
-# Ignore large data files
-recommendations.csv
-users.csv
+# Ignore everything by default
+*
 
-# Ignore saved models
-*.pkl
+# But do not ignore these specific file types
+# !*.py
+!*.ipynb
+!*.md
+!*.txt
+!.gitignore
 
-# Ignore python cache and environments
+# Ignore specific large data folders or virtual environments if you have them
+.ipynb_checkpoints/
 __pycache__/
+.DS_Store
 venv/
-.env
+env/
+
+# Explicitly ignore the heavy AI models and raw data
+*.pkl
+*.csv
+*.png
