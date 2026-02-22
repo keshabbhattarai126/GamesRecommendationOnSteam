@@ -2,7 +2,7 @@
 *
 
 # But do not ignore these specific file types
-# !*.py
+!*.py
 !*.ipynb
 !*.md
 !*.txt
